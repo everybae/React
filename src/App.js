@@ -20,6 +20,7 @@ class App extends Component
   {
     return(
     <div className="App">
+      { alert('스크립트 창 입니다') }
         <Subject></Subject>
     </div>
     );
