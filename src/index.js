@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Counter from './Counter';
 import reportWebVitals from './reportWebVitals';
+import MyForm from './MyForm';
 
 ReactDOM.render(
     <React.StrictMode>
-        <Counter />
+        <MyForm />
     </React.StrictMode>,
     document.getElementById('root'));
 
